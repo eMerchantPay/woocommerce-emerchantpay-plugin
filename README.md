@@ -1,36 +1,47 @@
 woocommerce-emerchantpay-plugin
 ===============================
 
-Shopping cart plugin for woocommerce for the EMP eCom API
+Shopping cart plugin for WooCommerce for the eMerchantPay eCommerce API
 
+==============================
 
-1.Plugin installation
+Requirements
 
-Copy the woocommerce-emerchantpay-plugin folder to the default Plugin folder:
-WORDPRESROOTFOLDER\wp-content\plugins
+==============================
 
-2.Plugin activation 
+In order to install the eCommerce EMP WooCommerce Plugin, you should fullfull the following requirements:
 
-After logging into the WordPress default admin, navigate to menu Plugins and click Activate.
+1) You should have Wordpress installed
+2) You should have WooCommerce plugin for Wordpress instalated
 
-3.Plugin configuration
+eMerchantPay eCommerce Gateway Plugin installation
+==============================
 
-3.1 Gateway URL 	
+Copy the woocommerce-emerchantpay-plugin folder to the default Plugin folder: <YOURWORDPRESSSITE>/wp-content/plugins
 
-3.2 Client ID 	
+eCommerce EMP WooCommerce Plugin activation
+==============================
 
-3.3 Secret Key
+After logging into your WordPress default admin <YOURWORDPRESSSITE>/wp-admin, navigate to menu Plugins, allocate eCommerce EMP WooCommerce Plugin and click Activate. Please note 
 
-3.4 Form ID
+Plugin configuration
 
-3.5 Test Mode
+==============================
 
-  "1 - Test mode 0 - Live mode"
+After you have activated the plugin you should configure it. Login to the WordPress Admin ( <YOURWORDPRESSSITE>/wp-admin ) and navigate to the menu WooCommerce >> Settings >> Payment Gateways >> Ecom.
 
-3.6 Digital/Phisial products 	
+The following fields have to be configured. You should click the Enable checkbox the eCommerce EMP WooCommerce Plugin.
 
-  "1 - Digital 0 - Phisical"
+1) Gateway URL (given to the merchant)
 
-3.7 Auth/Sale 	
+2) Client ID (given to the merchant)
 
-"sale/auth"
+3) Secret Key 
+
+4) Form ID
+
+5) Test Mode (1 - Test mode 0 - Live mode)
+
+6) Digital/Phisial products (1 - Digital 0 - Phisical)
+
+7) Auth/Sale (sale/auth)
