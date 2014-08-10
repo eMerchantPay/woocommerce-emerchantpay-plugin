@@ -17,14 +17,14 @@ class ParamSigner {
 
 	function setSignatureType($signatureType)
 	{
-		if (checkSignatureType($signatureType))
+		if ($this->checkSignatureType($signatureType))
 		{
-			$this->signatureType=$mode;
+			$this->signatureType=$signatureType;
 			return true;
 		}
 		else
 		{
-			user_error("Invalid signatureType :$mode");
+			user_error("Invalid signatureType :$signatureType");
 			return false;
 		}
 	}
